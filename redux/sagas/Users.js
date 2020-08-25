@@ -1,7 +1,7 @@
 
 import { all, call, put, takeEvery } from 'redux-saga/effects';
 import { fetchUsersSuccess } from '../actions/Users';
-import { FETCH_ALL_USERS } from '../constants/ActionTypes';
+import { FETCH_ALL_USERS } from '../../constants/ActionTypes';
 
 const BASE_API = `https://randomuser.me/api/?results=50`
 

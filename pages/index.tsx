@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'next/router';
 import { fetchUsers, selectUser } from '../redux/actions/Users';
-// import UserList from '../utils/components/UserList';
+import UserList from '../components/UserList';
 
 interface Props {
     loader?: boolean;
@@ -33,7 +33,7 @@ const Home = ({ loader, usersList, fetchUsers, router, selectUser }: Props) => {
             query: { id: data.id?.value },
         });
     };
-    // return <UserList data={userData} userClick={userClick} />;
+    return <UserList data={userData} userClick={userClick} />;
 };
 
 const mapStateToProps = ({ users }: any) => {

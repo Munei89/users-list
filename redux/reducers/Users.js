@@ -1,4 +1,4 @@
-import { FETCH_ALL_USERS, FETCH_ALL_USERS_SUCCESS, SELECTED_USER } from '../constants/ActionTypes';
+import { FETCH_ALL_USERS, FETCH_ALL_USERS_SUCCESS, SELECTED_USER } from '../../constants/ActionTypes';
 
 const INIT_STATE = {
     loader: false,
