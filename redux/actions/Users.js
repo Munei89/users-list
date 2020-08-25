@@ -6,14 +6,14 @@ export const fetchUsers = () => {
     };
 };
 
-export const fetchUsersSuccess = (users: any) => {
+export const fetchUsersSuccess = (users) => {
     return {
         type: FETCH_ALL_USERS_SUCCESS,
         payload: users,
     };
 };
 
-export const selectUser = (user: any) => {
+export const selectUser = (user) => {
     return {
         type: SELECTED_USER,
         payload: user,
