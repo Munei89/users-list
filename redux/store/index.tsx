@@ -1,24 +1,19 @@
 import { createStore, applyMiddleware, Store, compose } from 'redux';
-import { MakeStore, createWrapper } from 'next-redux-wrapper';
+import { MakeStore, createWrapper, Context } from 'next-redux-wrapper';
 import createSagaMiddleware, { Task } from 'redux-saga';
 import reducers from '../reducers';
 import rootSaga from '../sagas';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
 
 export interface SagaStore extends Store {
   sagaTask?: Task;
 }
-declare global {
-  interface Window {
-    __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
-  }
-}
-
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 export const makeStore: MakeStore<any> = (initialState: any) => {
   const sagaMiddleware = createSagaMiddleware();
-  const store = createStore(reducers, initialState, composeEnhancers(applyMiddleware(sagaMiddleware)));
+  const middleware = [sagaMiddleware];
+  const store = createStore(reducers, initialState, composeWithDevTools(applyMiddleware(...middleware)));
 
   sagaMiddleware.run(rootSaga);
 

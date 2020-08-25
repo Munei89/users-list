@@ -23,7 +23,13 @@ class WrappedApp extends App<AppInitialProps> {
         const { Component, pageProps } = this.props;
         return (
             <ThemeProvider theme={theme}>
+                <div>
+                    Header
+                </div>
                 <Component {...pageProps} />
+                <div>
+                    Footer
+                </div>
             </ThemeProvider>
         );
     }
