@@ -1,4 +1,4 @@
-export const FETCH_ALL_USERS = 'fetch_all_users';
-export const FETCH_ALL_USERS_SUCCESS = 'fetch_all_users_success';
+export const FETCH_ALL_USERS = 'FETCH_ALL_USERS';
+export const FETCH_ALL_USERS_SUCCESS = 'FETCH_ALL_USERS_SUCCESS';
 
-export const SELECTED_USER = 'selected_user';
+export const SELECTED_USER = 'SELECTED_USER';
