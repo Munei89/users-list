@@ -33,7 +33,14 @@ const Home = ({ loader, usersList, fetchUsers, router, selectUser }: Props) => {
             query: { id: data.id?.value },
         });
     };
-    return <UserList data={userData} userClick={userClick} />;
+    return (
+        <>
+            {loader ?
+                <p>Loading</p> :
+                <UserList data={userData} userClick={userClick}/>
+            }
+        </>
+        );
 };
 
 const mapStateToProps = ({ users }: any) => {
