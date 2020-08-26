@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+.header {
+  padding: 20px;
+}
+.home-link {
+  cursor: pointer;
+}

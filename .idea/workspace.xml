@@ -11,21 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd5860a2-1042-4e8f-989d-97a2823f2e6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Avatar/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CardWrapper/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ContentWrapper/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/StyledText/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UserCard/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UserList/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/details.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/actions/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/redux/actions/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/reducers/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/reducers/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/sagas/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/sagas/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/store/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -75,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598375771907</updated>
       <workItem from="1598375773218" duration="2058000" />
-      <workItem from="1598380467753" duration="1574000" />
+      <workItem from="1598380467753" duration="7307000" />
     </task>
     <servers />
   </component>
@@ -95,6 +87,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598420721747">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1598420721747" />
     <state x="541" y="280" width="598" height="490" key="find.popup" timestamp="1598379074720">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
