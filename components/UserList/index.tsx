@@ -52,14 +52,13 @@ const UserList: React.FC<Props> = ({ data, userClick }) => {
                     {
                         title: 'Avatar',
                         field: 'picture',
-                        render: rowData => <img src={rowData.picture} alt={'name'} />,
+                        render: rowData => <Avatar src={rowData.picture} alt={rowData.name} />,
                         filtering: false,
                     },
                     { title: 'Name', field: 'name', filtering: false },
                     { title: 'Email', field: 'email', filtering: false },
                     { title: 'Phone', field: 'phone', filtering: false },
                     { title: 'Age', field: 'age', type: 'numeric' },
-                    { title: 'Gender', field: 'gender' },
                     { title: 'City', field: 'city', filtering: false },
                 ]}
                 data={data}

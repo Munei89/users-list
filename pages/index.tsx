@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'next/router';
 import { fetchUsers, selectUser } from '../redux/actions/Users';
@@ -13,7 +13,7 @@ interface Props {
 }
 
 const Home = ({ loader, usersList, fetchUsers, router, selectUser }: Props) => {
-    React.useEffect(() => {
+    useEffect(() => {
         fetchUsers();
     }, []);
     let userData = [];
